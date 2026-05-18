@@ -58,7 +58,7 @@ to repair.
 The reward is linear in the feature vector
 
 $$
-\varphi(x,a,\mu)=\left(x,\;x\mu_{\mathrm{av}},\;a\right),
+\varphi(x,a,\mu)=\left(x, x\mu_{\mathrm{av}}, a\right),
 $$
 
 where $\mu_{\mathrm{av}}$ is the average malware severity in the population.
