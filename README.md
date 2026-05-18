@@ -48,7 +48,7 @@ The ten-state model is a higher-dimensional malware spread example with state
 space
 
 $$
-\mathcal X=\{0,0.1,\ldots,0.9\}.
+\mathcal X={0,0.1,\ldots,0.9}.
 $$
 
 Each state represents a malware severity level. The action space is
