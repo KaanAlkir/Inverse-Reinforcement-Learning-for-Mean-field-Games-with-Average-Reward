@@ -1,7 +1,9 @@
 # Inverse reinforcement learning for mean-field games
 
 This repository contains numerical illustrations of inverse reinforcement learning
-for stationary mean-field games under an average-reward criterion.
+for stationary mean-field games under an average-reward criterion. The examples
+are based on the finite-dimensional maximum entropy formulation developed in
+[1] and its numerical extensions.
 
 The repository includes three examples:
 
@@ -32,15 +34,16 @@ interpret the experiments.
 
 ### Two-state linear malware model
 
-The two-state model is a minimal malware spread example with states representing
-healthy and infected agents. It is used to illustrate the finite-dimensional
-linear inverse reinforcement learning formulation in the simplest possible
-setting.
+The two-state model is a minimal malware spread example inspired by the
+stationary mean-field malware model in [2]. The states represent healthy and
+infected agents, and the actions represent doing nothing or repairing the
+system.
 
-The code computes an expert stationary mean-field equilibrium, constructs the
-expert occupation measure and feature expectation vector, solves the dual
-maximum entropy inverse problem, and recovers a policy from the optimized
-occupation measure.
+This example is useful because the full forward and inverse pipeline can be seen
+in the simplest possible setting. The code computes an expert stationary
+mean-field equilibrium, constructs the expert occupation measure and feature
+expectation vector, solves the dual maximum entropy inverse problem, and recovers
+a policy from the optimized occupation measure.
 
 ### Ten-state linear malware model
 
