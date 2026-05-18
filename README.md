@@ -58,7 +58,7 @@ to repair.
 The reward is linear in the feature vector
 
 $$
-\phi(x,a,\mu)=\left(x,\;x\mu_{\mathrm{av}},\;a\right),
+\varphi(x,a,\mu)=\left(x,\;x\mu_{\mathrm{av}},\;a\right),
 $$
 
 where $\mu_{\mathrm{av}}$ is the average malware severity in the population.
@@ -91,7 +91,7 @@ $$
 Then the expert feature expectation is computed as
 
 $$
-\langle \phi\rangle_E=\sum_{x,a}\nu_E(x,a)\phi(x,a,\mu_E).
+\langle \varphi\rangle_E=\sum_{x,a}\nu_E(x,a)\varphi(x,a,\mu_E).
 $$
 
 The inverse problem uses these expert statistics to recover a policy that is
