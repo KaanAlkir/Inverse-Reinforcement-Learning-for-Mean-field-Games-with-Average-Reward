@@ -3,7 +3,7 @@
 This repository contains numerical illustrations of inverse reinforcement learning
 for stationary mean-field games under an average-reward criterion. The examples
 are based on the finite-dimensional maximum entropy formulation developed in
-[1] and its numerical extensions.
+[1](#ref1) and its numerical extensions.
 
 The repository includes three examples:
 
