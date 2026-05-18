@@ -91,9 +91,7 @@ $$
 Then the expert feature expectation is computed as
 
 $$
-\langle \phi\rangle_E
-=
-\sum_{x,a}\nu_E(x,a)\phi(x,a,\mu_E).
+\langle \phi\rangle_E=\sum_{x,a}\nu_E(x,a)\phi(x,a,\mu_E).
 $$
 
 The inverse problem uses these expert statistics to recover a policy that is
