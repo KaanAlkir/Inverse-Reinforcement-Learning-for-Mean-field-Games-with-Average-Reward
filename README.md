@@ -3,7 +3,7 @@
 This repository contains numerical illustrations of inverse reinforcement learning
 for stationary mean-field games under an average-reward criterion. The examples
 are based on the finite-dimensional maximum entropy formulation developed in
-[1](#ref1) and its numerical extensions.
+[[1]](#ref1) and its numerical extensions.
 
 The repository includes three examples:
 
@@ -35,7 +35,7 @@ interpret the experiments.
 ### Two-state linear malware model
 
 The two-state model is a minimal malware spread example inspired by the
-stationary mean-field malware model in [2]. The states represent healthy and
+stationary mean-field malware model in [[1]](#ref1). The states represent healthy and
 infected agents, and the actions represent doing nothing or repairing the
 system.
 
