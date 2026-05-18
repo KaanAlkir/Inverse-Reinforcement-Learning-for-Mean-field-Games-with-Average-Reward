@@ -35,7 +35,7 @@ interpret the experiments.
 ### Two-state linear malware model
 
 The two-state model is a minimal malware spread example inspired by the
-stationary mean-field malware model in [[1]](#ref1). The states represent healthy and
+stationary mean-field malware model in [[2]](#ref2). The states represent healthy and
 infected agents, and the actions represent doing nothing or repairing the
 system.
 
@@ -115,6 +115,8 @@ To run the notebooks, you will also need:
 
 ## References
 
-[1] Ş. K. Alkır and N. Saldı, “Inverse Reinforcement Learning for Mean-field Games with Average Reward Criterion,” *2025 IEEE 64th Conference on Decision and Control (CDC)*, pp. 7272–7277, 2025.
+<a id="ref1"></a>
+[1] Ş. K. Alkır and N. Saldı, “[Inverse Reinforcement Learning for Mean-field Games with Average Reward Criterion](https://doi.org/10.1109/CDC57313.2025.11312818),” *2025 IEEE 64th Conference on Decision and Control (CDC)*, pp. 7272–7277, 2025.
 
-[2] J. Subramanian and A. Mahajan, “Reinforcement learning in stationary mean-field games,” *Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)*, 2019.
+<a id="ref2"></a>
+[2] J. Subramanian and A. Mahajan, “[Reinforcement learning in stationary mean-field games](https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p251.pdf),” *Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)*, 2019.
